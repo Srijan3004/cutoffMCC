@@ -1,0 +1,13 @@
+Package: cutoffbasedonMCC
+Type: Package
+Title: This package takes a data, takes a n, takes the coefficient of the fitted model and takes the output observed, then for each i in 1:n gives the best cutoff based on MCC. Valid only for binary classification. The cutoff is only below 0.5, otherwise one can just reverse.
+Version: 0.1.0
+Author: Srijan Chatterjee
+Maintainer: Srijan Chatterjee <srijanchatterjee123456789@gmail.com>
+Description: n = maximum number of data points for which we want to check
+             data = data
+             beta = coefficient of the fitted model 
+             output = observed binary output for the testing data
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
